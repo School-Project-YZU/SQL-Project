@@ -16,7 +16,7 @@
 
 (8) Bill of Lading : Personnel (m:1): Indicates that an employee can be responsible for multiple shipments.   
 
-(9) Bill of Lading : Carrier  (m:1): Indicates that a transport company can be responsible for multiple shipments.   
+(9) Bill of Lading : Shipping Company  (m:1): Indicates that a transport company can be responsible for multiple shipments.   
 
 (10) Remittance Single : Personnel (m:1): Indicates that an employee can be responsible for processing multiple collections.   
 
