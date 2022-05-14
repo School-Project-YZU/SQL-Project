@@ -1,34 +1,34 @@
-# ERD Of operating income and collection cycle
+# ERD of Operating Income And Collection Cycle
 
-(1) Sales order file: Bill of lading file (1:m): Indicates that an order can be shipped several times.   
+(1) Sales Order : Bill of Lading (1:m): Indicates that an order can be shipped several times.   
 
-(2) Bill of Lading File: Invoice file (1:1): Indicates that an invoice is issued for a bill of lading.   
+(2) Bill of Lading : Invoice (1:1): Indicates that an invoice is issued for a bill of lading.   
 
-(3) Invoice file: Remittance single file (1:1): Indicates that if an invoice is issued, a remittance or information will be received.   
+(3) Invoice : Remittance Single (1:1): Indicates that if an invoice is issued, a remittance or information will be received.   
 
-(4) Customer file: sales order file (1:m): Indicates that a customer can place multiple orders.   
+(4) Customer : Sales Order (1:m): Indicates that a customer can place multiple orders.   
 
-(5) Invoice document: customer document (m; 1): Indicates that a customer can receive several invoices. 
+(5) Invoice : Customer (m: 1): Indicates that a customer can receive several invoices. 
 
-(6) Remittance single file: customer file (m:1): Indicates that multiple payments can be received from the same customer.   
+(6) Remittance Single : Customer (m:1): Indicates that multiple payments can be received from the same customer.   
 
-(7) Sales order file: Personnel file (m:1): Indicates that an employee can be responsible for multiple sales.   
+(7) Sales Order : Personnel (m:1): Indicates that an employee can be responsible for multiple sales.   
 
-(8) Bill of Lading File: Personnel document (m:1): Indicates that an employee can be responsible for multiple shipments.   
+(8) Bill of Lading : Personnel (m:1): Indicates that an employee can be responsible for multiple shipments.   
 
-(9) Bill of Lading File: Carrier Document (m1): Indicates that a transport company can be responsible for multiple shipments.   
+(9) Bill of Lading : Carrier  (m:1): Indicates that a transport company can be responsible for multiple shipments.   
 
-(10) Remittance single file personnel file (m:1): Indicates that an employee can be responsible for processing multiple collections.   
+(10) Remittance Single : Personnel (m:1): Indicates that an employee can be responsible for processing multiple collections.   
 
-(11) Remittance file: Account file (m:1): Indicates that multiple payments can be stored in the same account.   
+(11) Remittance Single : Account (m:1): Indicates that multiple payments can be stored in the same account.   
 
-(12) Sales order file: sales order detail file (1:m): indicates that a sales order can order several kinds of inventory.   
+(12) Sales Order : Sales Order Details (1:m): indicates that a sales order can order several kinds of inventory.   
 
-(13) Sales Order Details: Inventory File (m:1): Indicates that each type of inventory can be ordered by other different orders.   
+(13) Sales Order Details : Inventory (m:1): Indicates that each type of inventory can be ordered by other different orders.   
 
-(14) Account file: Bank file (m:1): Indicates that there are multiple accounts in the same bank.   
+(14) Account : Bank (m:1): Indicates that there are multiple accounts in the same bank.   
 
-(15) Personnel file: Department file (m:1): Indicates that a department has multiple employees.    
+(15) Personnel : Department (m:1): Indicates that a department has multiple employees.    
 
 
 ### Table-Inventory
@@ -63,8 +63,8 @@
 | -- | --------                | --------      | 
 | 1. | Order Number            | ORD_NUM       |
 | 2. | Inventory Number        | INV_ID        |
-| 3. | Quantity                | ORD_QUAN      |
-| 4. | Amount                  | ORD_AMO       |
+| 3. | Quantity                | ORD_LINE_QUAN |
+| 4. | Amount                  | ORD_LINE_AMO  |
 
 
 ### Table-Bill of Lading
