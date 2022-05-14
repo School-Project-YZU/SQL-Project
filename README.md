@@ -18,4 +18,11 @@
 (15) Personnel file: Department file (m:1): Indicates that a department has multiple employees.    
 
 
-![image](https://github.com/Annie0727/Pictures/blob/main/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%202022-05-11%20194830.png)
+![image](https://github.com/Annie0727/Pictures/blob/main/SQL01.jpg)
+![image](https://github.com/Annie0727/Pictures/blob/main/SQL02.jpg)
+![image](https://github.com/Annie0727/Pictures/blob/main/SQL03.jpg)
+![image](https://github.com/Annie0727/Pictures/blob/main/SQL04.jpg)
+![image](https://github.com/Annie0727/Pictures/blob/main/SQL05.jpg)
+![image](https://github.com/Annie0727/Pictures/blob/main/SQL06.jpg)
+![image](https://github.com/Annie0727/Pictures/blob/main/SQL07.jpg)
+
