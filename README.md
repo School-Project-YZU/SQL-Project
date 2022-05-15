@@ -59,12 +59,12 @@
 
 ### Table-Sales Order Details 
 
-|    | Attributes              | Abbreviation  | 
-| -- | --------                | --------      | 
-| 1. | Order Number            | ORD_NUM       |
-| 2. | Inventory Number        | INV_ID        |
-| 3. | Quantity                | ORD_LINE_QUAN |
-| 4. | Amount                  | ORD_LINE_AMO  |
+|    | Attributes              | Abbreviation      | 
+| -- | --------                | --------          | 
+| 1. | Order Number            | ORD_NUM           |
+| 2. | Inventory Number        | INV_ID            |
+| 3. | Quantity                | ORD_LINE_QUANTITY |
+| 4. | Amount                  | ORD_LINE_AMOUNT   |
 
 
 ### Table-Bill of Lading
