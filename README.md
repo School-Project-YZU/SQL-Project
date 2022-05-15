@@ -46,7 +46,7 @@
 
 
 
-### Table-Sales Order 
+### Table-Order 
 
 |    | Attributes              | Abbreviation  | 
 | -- | --------                | --------      | 
@@ -57,7 +57,7 @@
 | 5. | Transaction Conditions  | ORD_TC        |
 
 
-### Table-Sales Order Details 
+### Table-Order Line
 
 |    | Attributes              | Abbreviation      | 
 | -- | --------                | --------          | 
@@ -78,7 +78,7 @@
 | 5. | Date                    | LAD_DATE      |
 
 
-### Table-Sales Invoice
+### Table-Invoice
 
 |    | Attributes              | Abbreviation  | 
 | -- | --------                | --------      | 
@@ -131,7 +131,7 @@
 | 6. | E-MAIL                  | SHIP_MAIL     |
 | 7. | Responsible Person      | SHIP_RP       |
 
-### Table-Personnel
+### Table-Employee
 
 |    | Attributes              | Abbreviation   | 
 | -- | --------                | --------       | 
