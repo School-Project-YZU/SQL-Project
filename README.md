@@ -48,7 +48,7 @@
 | 4. | Reorder Point        | INVT_RP       |
 | 5. | Standard Cost        | INVT_SC       |
 | 6. | Reorder Quantity     | INVT_RQ       |
-| 7. | Manufacturer Number  | MFR_ID        |
+| 7. | Vendor Number        |  VEN_ID       |
 | 8. | Warehouse Number     | WHSE_ID       |
 
 
