@@ -30,6 +30,13 @@
 
 (15) Employee : Department (m:1): Indicates that a department has multiple employees.    
 
+(16) Inventory: Supplier document (m:n): Indicates that one inventory can be provided by multiple vendors, and one vendor can also provide multiple inventories. 
+
+(17) Inventory file: Warehouse file (m:1): Indicates that the company has only one warehouse, and this warehouse stores a variety of inventory.  
+
+(18) Repository file: Personnel file (1:m): Indicates that the repository is managed by multiple company employees.  
+
+
 
 ### Table-Inventory
 
@@ -46,7 +53,31 @@
 
 
 
-### Table-Order 
+### Table-VENDOR
+
+|    | Attributes            | Abbreviation  | 
+| -- | --------              | --------      | 
+| 1. | Vendor Number         | VEN_ID        |
+| 2. | Vendor Name           | VEN_NAME      |
+| 3. | Telephone             | VEN_PHONE     |
+| 4. | Fax                   | VEN_FAX       |
+| 5. | E-MAIL                | VEN_MAIL      |
+| 6. | Person in Charge Ship | VEN_IC        |
+
+
+
+### Table-WAREHOUSE
+
+|    | Attributes            | Abbreviation  | 
+| -- | --------              | --------      | 
+| 1. | Warehouse number      | WAR_NUM       |
+| 2. | Warehouse address     | WAR_ADDRES    |
+| 3. | Telephone             | WAR_PHONE     |
+| 4. | Employee Number       | EMP_NUM       |
+
+
+
+### Table-Sales-Order 
 
 |    | Attributes              | Abbreviation  | 
 | -- | --------                | --------      | 
@@ -57,7 +88,7 @@
 | 5. | Transaction Conditions  | ORD_TC        |
 
 
-### Table-Order Line
+### Table-Sales-Order-Line
 
 |    | Attributes              | Abbreviation      | 
 | -- | --------                | --------          | 
@@ -84,8 +115,9 @@
 | -- | --------                | --------      | 
 | 1. | Invoice Number          | INV_NUM       |
 | 2. | Date                    | INV_DATE      |
-| 3. | Customer Number         | CUS_ID        |
-| 4. | Bill of Lading Number   | LAD_NUM       |
+| 3. | Invoice Amount          | INV_AMOUNT    |
+| 4. | Customer Number         | CUS_ID        |
+| 5. | Bill of Lading Number   | LAD_NUM       |
 
 ### Table-Remittance single 
 
