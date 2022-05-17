@@ -196,4 +196,4 @@
 | 2. | Department Name         | DEPT_NAME     |
 
 # Reference
-- https://hackmd.io/xgpPIzO-QH20hdJwDXp-gg
+https://hackmd.io/@Thalia/Hy5q3XNqK
