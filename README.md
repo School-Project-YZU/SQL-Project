@@ -30,6 +30,11 @@
 
 (15) Employee : Department (m:1): Indicates that a department has multiple employees.    
 
+(16) Inventory: Vendor (m:n): Indicates that one inventory can be provided by multiple vendors, and one vendor can also provide multiple inventories. 
+
+(17) Inventory : Warehouse (m:1): Indicates that the company has only one warehouse, and this warehouse stores a variety of inventory.  
+
+(18) Warehouse : Employee (1:m): Indicates that the warehouse is managed by multiple company employees.  
 
 ### Table-Inventory
 
@@ -41,12 +46,33 @@
 | 4. | Reorder Point        | INVT_RP       |
 | 5. | Standard Cost        | INVT_SC       |
 | 6. | Reorder Quantity     | INVT_RQ       |
-| 7. | Manufacturer Number  | MFR_ID        |
+| 7. | Vendor Number        | VEN_ID        |
 | 8. | Warehouse Number     | WHSE_ID       |
 
+### Table-Vendor
+
+|    | Attributes            | Abbreviation  | 
+| -- | --------              | --------      | 
+| 1. | Vendor Number         | VEN_ID        |
+| 2. | Vendor Name           | VEN_NAME      |
+| 3. | Telephone             | VEN_PHONE     |
+| 4. | Fax                   | VEN_FAX       |
+| 5. | E-MAIL                | VEN_MAIL      |
+| 6. | Person in Charge Ship | VEN_IC        |
 
 
-### Table-Sales Order 
+
+### Table-Warehouse
+
+|    | Attributes            | Abbreviation  | 
+| -- | --------              | --------      | 
+| 1. | Warehouse number      | WAR_NUM       |
+| 2. | Warehouse address     | WAR_ADDRES    |
+| 3. | Telephone             | WAR_PHONE     |
+| 4. | Employee Number       | EMP_NUM       |
+
+
+### Table-Sales-Order 
 ![螢幕擷取畫面 2022-05-15 112650](https://user-images.githubusercontent.com/78516704/168456076-8b3b90de-d35d-49b4-b797-375c87375dba.png)
 
 |    | Attributes              | Abbreviation  | 
@@ -58,7 +84,7 @@
 | 5. | Transaction Conditions  | ORD_TC        |
 
 
-### Table-Order Line
+### Table-Order-Line
 
 |    | Attributes              | Abbreviation      | 
 | -- | --------                | --------          | 
@@ -68,7 +94,7 @@
 | 4. | Amount                  | ORD_LINE_AMOUNT   |
 
 
-### Table-Bill of Lading
+### Table-Bill-of-Lading
 ![螢幕擷取畫面 2022-05-15 112132](https://user-images.githubusercontent.com/78516704/168456085-62bdd294-d41a-4682-8bb0-4220c57200fa.png)
 
 |    | Attributes              | Abbreviation  | 
@@ -86,10 +112,11 @@
 | -- | --------                | --------      | 
 | 1. | Invoice Number          | INV_NUM       |
 | 2. | Date                    | INV_DATE      |
-| 3. | Customer Number         | CUS_ID        |
-| 4. | Bill of Lading Number   | LAD_NUM       |
+| 3. | Invoice Amount          | INV_AMOUNT    |
+| 4. | Customer Number         | CUS_ID        |
+| 5. | Bill of Lading Number   | LAD_NUM       |
 
-### Table-Remittance Single 
+### Table-Remittance-Single 
 ![螢幕擷取畫面 2022-05-15 112753](https://user-images.githubusercontent.com/78516704/168456100-ee2b21c9-bd79-4e95-9d17-bbcfa2f223fe.png)
 
 |    | Attributes           | Abbreviation  | 
