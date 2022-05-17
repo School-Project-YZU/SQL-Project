@@ -168,7 +168,7 @@
 | -- | --------                | --------       | 
 | 1. | Employee Number         | EMP_NUM        |
 | 2. | Employee Name           | EMP_NAME       |
-| 3. | Department Number       | DEPT_ID        |
+| 3. | Department Number       | DEPT_NUM       |
 | 3. | Date of Employment      | EMP_HIRE_DATE  |
 | 4. | Telephone               | EMP_PHONE      |
 | 5. | Identity Card Number    | EMP_ID         |
@@ -192,7 +192,7 @@
 
 |    | Attributes              | Abbreviation  | 
 | -- | --------                | --------      | 
-| 1. | Department Number       | DEPT_ID       |
+| 1. | Department Number       | DEPT_NUM      |
 | 2. | Department Name         | DEPT_NAME     |
 
 # Reference
