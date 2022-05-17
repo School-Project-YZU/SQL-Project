@@ -78,8 +78,6 @@
 
 
 ### Table-Sales-Order 
-![螢幕擷取畫面 2022-05-15 112650](https://user-images.githubusercontent.com/78516704/168456076-8b3b90de-d35d-49b4-b797-375c87375dba.png)
-
 
 |    | Attributes              | Abbreviation  | 
 | -- | --------                | --------      | 
@@ -101,7 +99,6 @@
 
 
 ### Table-Bill-of-Lading
-![螢幕擷取畫面 2022-05-15 112132](https://user-images.githubusercontent.com/78516704/168456085-62bdd294-d41a-4682-8bb0-4220c57200fa.png)
 
 |    | Attributes              | Abbreviation  | 
 | -- | --------                | --------      | 
@@ -123,7 +120,6 @@
 | 5. | Bill of Lading Number   | LAD_NUM       |
 
 ### Table-Remittance-Single 
-![螢幕擷取畫面 2022-05-15 112753](https://user-images.githubusercontent.com/78516704/168456100-ee2b21c9-bd79-4e95-9d17-bbcfa2f223fe.png)
 
 |    | Attributes           | Abbreviation  | 
 | -- | --------             | --------      | 
@@ -142,8 +138,6 @@
 | 3. | Balance              | ACCT_BALANCE  |
 
 ### Table-Customer
-![螢幕擷取畫面 2022-05-15 112843](https://user-images.githubusercontent.com/78516704/168456104-7dde091a-48d4-430b-865b-09141635eda3.png)
-
 
 |    | Attributes            | Abbreviation  | 
 | -- | --------              | --------      | 
@@ -170,7 +164,6 @@
 | 7. | Responsible Person      | SHIP_RP       |
 
 ### Table-Employee
-![螢幕擷取畫面 2022-05-15 112950](https://user-images.githubusercontent.com/78516704/168456107-57c21261-c412-451d-a205-61a10d64ea9b.png)
 
 |    | Attributes              | Abbreviation   | 
 | -- | --------                | --------       | 
@@ -197,7 +190,6 @@
 
 
 ### Table-Department
-![螢幕擷取畫面 2022-05-15 112926](https://user-images.githubusercontent.com/78516704/168456113-c2087dc3-54c1-4dc3-a410-869a4a4bc479.png)
 
 |    | Attributes              | Abbreviation  | 
 | -- | --------                | --------      | 
