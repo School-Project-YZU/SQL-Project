@@ -31,3 +31,6 @@
 ![螢幕擷取畫面 2022-05-11 041117](https://user-images.githubusercontent.com/78516704/167713840-00158464-0d40-4d06-921c-ed3e544f27b4.png)
 12. If your screen like the following, your database connection is successful.
 ![螢幕擷取畫面 2022-05-11 043151](https://user-images.githubusercontent.com/78516704/167716854-b971e9aa-6af0-4bc4-ad53-fca0fdc4646a.png)
+
+# Reference
+- https://hackmd.io/@Thalia/ByXiaX-Pc/edit
