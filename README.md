@@ -51,7 +51,7 @@
 | 5. | Standard Cost        | INVT_SC       |
 | 6. | Reorder Quantity     | INVT_RQ       |
 | 7. | Vendor Number        | VEN_ID        |
-| 8. | Warehouse Number     | WHSE_ID       |
+| 8. | Warehouse Number     | WHSE_NUM      |
 
 ### Table-Vendor
 
